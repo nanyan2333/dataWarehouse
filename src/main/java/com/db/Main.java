@@ -5,7 +5,7 @@ public class Main {
 
         try {
             connect db = new connect();
-            db.createTable();
+//            db.createTable();
             db.test();
         } catch (Exception e) {
             e.printStackTrace();
